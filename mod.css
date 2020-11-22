@@ -1,0 +1,296 @@
+/*
+   Author: Mark Beswetherick
+   Style sheet for the week 2 exam
+*/
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+.container{
+   height: 1460px;
+   width: 1210px;
+   background-color: #181818;
+}
+
+.container .div1{                /* company logo, phone #  */
+   height: 142px;
+   width: 1195px;
+   background-color: #1a1a1a;
+   margin-left: 8px;
+}
+
+.div1 img{
+   margin: 30px 0 0 33px;
+}
+
+.div1 p{
+   display: inline-block;
+   vertical-align: top;
+   margin: 30px 0 0 725px;
+   color: white;
+   font-size: 14pt;
+}
+
+.container .div2{                   /* nav bar  */
+   height: 50px;
+   width: 1195px;
+   margin-left: 8px;
+   background: linear-gradient(#545454, #252525)
+}
+
+.div2 ul{
+   padding-top: 18px;
+}
+
+.div2 li{
+   display: inline;
+   padding: 10px 0 0 33px;
+   border-right: #333333;
+}
+
+.div2 a{
+   color: #92a3a3;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.div2 span{
+   font-size: 9pt;
+}
+
+.container .div3{              /* lady image   */
+   height: 438px;
+   width: 1195px;
+   margin-left: 8px;
+}
+
+.div3 img{
+   height: 438px;
+   width: 1195px;
+   object-fit: cover;
+}
+
+.container .div4{             /* side-by-fours  */
+   height: 195px;
+   width: 1195px;
+   margin-left: 8px;
+   background-color: #1a1a1a;
+}
+
+.div4 .p1{
+   height: 190px;
+   width: 290px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div4 .p2{
+   height: 190px;
+   width: 290px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div4 .p3{
+   height: 190px;
+   width: 290px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div4 .p4{
+   height: 190px;
+   width: 290px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div4 img{
+   height: 50px;
+   width: 58px;
+   display: inline-block;
+   margin-top: 40px;
+}
+
+.div4 .side{
+   height: 190px;
+   width: 220px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div4 .side .head{
+   margin: 40px 0 7px 0;
+}
+
+.div4 .side .head p{
+   color: #ef7f2c;
+   font-size: 16pt;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div4 .side p{
+   color: #cfcfcf;
+   font-size: 11pt;
+}
+
+.container .div5{                   /* slice with the button  */
+   height: 175px;
+   width: 1195px;
+   display: inline-block;  
+   margin-left: 8px;
+   background-repeat: repeat;
+   /* background-image: repeating-linear-gradient(45deg, #444444 1%, #777777 2%, #aaaaaa 3%); */
+   background-image: "patrn1.jpg";
+/* background-color: #050505; */
+}
+
+.div5 .left{
+   display: inline-block;  
+   width: 750px;
+}
+
+.div5 .title{
+   color: #f0f0f0;
+   /* width: 750px; */
+   font-size: 20pt;
+   margin-left: 43px;
+   padding: 40px 0 10px 0;
+}
+
+.div5 .text{
+   color: #9d9d9d;
+   /* width: 750px; */
+   font-size: 11pt;
+   margin-left: 40px;
+}
+
+.div5 .buyButton button{
+   height: 50px;
+   width: 140px;
+   margin-top: -60px;
+   display: inline-block;
+   vertical-align: top;
+   border: none;
+   margin-left: 1000px;
+   padding: 10px;
+   font-size: 16pt;
+   color: whitesmoke;
+   background: linear-gradient(#f3a265, #ef7f2c);
+   border-radius: 7px;
+}
+
+.div5 .buyButton a{
+   color: whitesmoke;
+   font-size: 16pt;
+   text-decoration: none;
+}
+
+.container .div6{          /* thin slice w/ View all projects link   */
+   height: 66px;
+   width: 1195px;
+   display: inline-block;
+   margin-left: 8px;
+   background-color: #1a1a1a;
+}
+
+.div6 .port{
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div6 .port p{
+   color: #e9e5e1;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 16pt;
+   margin: 27px 0 0 25px;
+}
+
+.div6 .view{
+   display: inline-block;
+   vertical-align: top;
+}
+
+.div6 .view a{                   /* when this was a <p> tag, margin* worked. Not now, sigh.  */
+   color: #e87929;
+   font-size: 10pt;
+   font-style: italic;
+   text-decoration: none;
+   /* margin: 30px 0 0 930px; */
+   margin-left: 930px;
+   margin-top: 30px;
+}
+
+.container .div7{                   /* portfolio pix & text  */
+   height: 365px;
+   width: 1195px;
+   margin-left: 8px;
+   background-color: #1a1a1a;
+}
+
+.div7 .s1{                  /* next 20+ lines are blocking  */
+   height: 365px;
+   width: 290px;
+   display: inline-block;
+}
+
+.div7 .s2{
+   height: 365px;
+   width: 290px;
+   display: inline-block;
+}
+
+.div7 .s3{
+   height: 365px;
+   width: 290px;
+   display: inline-block;
+}
+
+.div7 .s4{
+   height: 365px;
+   width: 290px;
+   display: inline-block;
+}
+
+.div7 img{
+   height: 160px;
+   width: 250px;
+   background-color: #363636;
+   padding: 5px;
+   object-fit: cover;
+   margin-left: 25px;
+}
+
+.div7 .head{
+   width: 260px;
+   color: #c26a29;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 16pt;
+   padding: 10px 10px 0 25px;
+}
+
+.div7 .body{
+   width: 260px;
+   color: #b9b5b0;
+   font-size: 11pt;
+   margin-left: 20px;
+   padding-top: 10px;
+}
+
+.div8{                              /* thin slice w/ back 2 top at lower right   */
+   height: 29px;
+   width: 1195px;
+   background-color: #1a1a1a;
+   margin-left: 8px;
+}
+
+.div8 a{
+   color: #70756d;
+   font-size: 10pt;
+   margin-left: 1080px;
+   text-decoration: none;
+}
+
